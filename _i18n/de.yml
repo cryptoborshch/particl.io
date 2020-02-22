@@ -1,0 +1,14 @@
+global:
+  test: testde
+langs:
+  en: 🇬🇧English
+  fr: 🇫🇷Français
+  de: 🇩🇪Deutsh
+menu:
+  introduction: 
+    title: Introduction
+    whyparticl: Why Particl
+    specifications: Coin specifications
+    latestnews: Latest News
+    press: In the Press
+    roadmap: Roadmap

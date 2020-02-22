@@ -47,6 +47,10 @@ defaults:
       layout: "event"
       image: "00-default-event.jpg"
 
+languages: ["en", "fr", "de"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

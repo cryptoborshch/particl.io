@@ -1,0 +1,14 @@
+global:
+  test: testfr
+langs:
+  en: 🇬🇧English
+  fr: 🇫🇷Français
+  de: 🇩🇪Deutsh
+menu:
+  introduction: 
+    title: Particl
+    whyparticl: Pourquoi Particl?
+    specifications: Spécificités techniques
+    latestnews: Dernières actus
+    press: Dans la presse
+    roadmap: Roadmap

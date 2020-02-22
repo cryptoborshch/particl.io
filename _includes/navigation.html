@@ -8,13 +8,13 @@
   
     <ul class="menu">
       <li class="category">
-        <span class="label">Introduction</span>
+        <span class="label">{% t menu.introduction.title %}</span>
         <ul class="submenu">
-          <li><a href="/why-particl/">Why Particl</a></li>
-          <li><a href="/coin-specifications/"><span class="desktop-only">Coin</span> Specifications</a></li>
-          <li><a href="https://particl.news" target="_blank">Latest News</a></li>
-          <li><a href="/press/">In the Press</a></li>
-          <li><a href="/roadmap/">Roadmap</a></li>
+          <li><a href="/why-particl/">{% t menu.introduction.whyparticl %}</a></li>
+          <li><a href="/coin-specifications/"><!-- <span class="desktop-only">Coin</span> --> {% t menu.introduction.specifications %}</a></li>
+          <li><a href="https://particl.news" target="_blank">{% t menu.introduction.latestnews %}</a></li>
+          <li><a href="/press/">{% t menu.introduction.press %}</a></li>
+          <li><a href="/roadmap/">{% t menu.introduction.roadmap %}</a></li>
         </ul>
       </li>
       <li class="category">
@@ -59,6 +59,27 @@
       </li>
       <li class="category mobile-only header-only">
         <span class="label">Social</span>
+      </li>
+      <li class="category">
+        {% if site.lang == "en" %}
+          <span class="label">{% t langs.en %}</span>
+          <ul class="submenu">
+            <li><a href="{{ site.baseurl_root }}/fr{{ page.url}}">{% t langs.fr %}</a></li>
+            <li><a href="{{ site.baseurl_root }}/de{{ page.url}}">{% t langs.de %}</a></li>
+          </ul>
+        {% elsif site.lang == "fr" %}
+          <span class="label">{% t langs.fr %}</span>
+          <ul class="submenu">
+            <li><a href="{{ site.baseurl_root }}{{ page.url}}">{% t langs.en %}</a></li>
+            <li><a href="{{ site.baseurl_root }}/de{{ page.url}}">{% t langs.de %}</a></li>
+          </ul>
+        {% elsif site.lang == "de" %}
+          <span class="label">{% t langs.de %}</span>
+          <ul class="submenu">
+            <li><a href="{{ site.baseurl_root }}{{ page.url}}">{% t langs.en %}</a></li>
+            <li><a href="{{ site.baseurl_root }}/fr{{ page.url}}">{% t langs.fr %}</a></li>
+          </ul>
+        {% endif %}
       </li>
     </ul>
 
