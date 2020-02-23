@@ -5,6 +5,7 @@ langs:
   fr: 🇫🇷Français
   de: 🇩🇪Deutsh
 menu:
+  new: New
   introduction: 
     title: Introduction
     whyparticl: Why Particl
@@ -12,3 +13,30 @@ menu:
     latestnews: Latest News
     press: In the Press
     roadmap: Roadmap
+  marketplace:
+    title: Marketplace
+    about: About
+    features: '& features'
+    buyers: For buyers
+    sellers: For sellers
+  getparticl:
+    title: Get Particl
+    downloads: Downloads
+    exchanges: PART Exchanges
+    subscribe: Subscribe
+    events: Events
+  resources:
+    title: Resources
+    userguide: User Guides
+    wiki: Wiki
+    faq: FAQ
+    whitepapers: Whitepapers
+    proposals: Proposals
+    bugbounties: Bug Bounties
+    blockexplorer: Block Explorer
+  about:
+    title: About
+    aboutus: About us
+    team: Particl Team
+    statusreport: Status Report
+    contact: Contact
