@@ -5,56 +5,58 @@
       <img class="logo" src="/assets/img/particl-logo-dark.svg" alt="Particl.io">
       <p class="copyright">&copy; 2017&ndash;{{ 'now' | date: "%Y" }} Particl Project</p>
     </div>
+
+    
   
     <ul class="menu">
       <li class="category">
-        <span class="label">{% t menu.introduction.title %}</span>
+        <span class="label">{% t menu.introduction.title %} {{ currentlang }}</span>
         <ul class="submenu">
-          <li><a href="/why-particl/">{% t menu.introduction.whyparticl %}</a></li>
-          <li><a href="/coin-specifications/"><!-- <span class="desktop-only">Coin</span> --> {% t menu.introduction.specifications %}</a></li>
+          <li><a href="{% if site.lang == 'fr' %}{% translate_link whyparticl fr %}{% else %}{% translate_link whyparticl %}{% endif %}">{% t menu.introduction.whyparticl %}</a></li>
+          <li><a href="{{ site.baseurl }}/coin-specifications/"><!-- <span class="desktop-only">Coin</span> --> {% t menu.introduction.specifications %}</a></li>
           <li><a href="https://particl.news" target="_blank">{% t menu.introduction.latestnews %}</a></li>
-          <li><a href="/press/">{% t menu.introduction.press %}</a></li>
-          <li><a href="/roadmap/">{% t menu.introduction.roadmap %}</a></li>
+          <li><a href="{{ site.baseurl }}/press/">{% t menu.introduction.press %}</a></li>
+          <li><a href="{{ site.baseurl }}/roadmap/">{% t menu.introduction.roadmap %}</a></li>
         </ul>
       </li>
       <li class="category">
         <span class="label">Marketplace</span>
         <ul class="submenu">
-          <li><a href="/marketplace/">About <span class="desktop-only">&amp; features</span></a></li>
-          <li><a href="/marketplace/buy/">For buyers</a></li>
-          <li><a href="/marketplace/sell/">For sellers</a></li>
+          <li><a href="{{ site.baseurl }}/marketplace/">About <span class="desktop-only">&amp; features</span></a></li>
+          <li><a href="{{ site.baseurl }}/marketplace/buy/">For buyers</a></li>
+          <li><a href="{{ site.baseurl }}/marketplace/sell/">For sellers</a></li>
         </ul>
       </li>
       <li class="category">
         <span class="label get-particl">Get Particl</span>
         <ul class="submenu">
             <li class="full-width"><a class="download-button" href="/downloads/">Downloads</a></li>
-            <li><a href="/part-exchanges/">PART Exchanges <span class="tag">new</span></a></li>
-            <li><a href="/subscribe/">Subscribe</a></li>
-            <li><a href="/events/">Events</a></li>
+            <li><a href="{{ site.baseurl }}/part-exchanges/">PART Exchanges <span class="tag">new</span></a></li>
+            <li><a href="{{ site.baseurl }}/subscribe/">Subscribe</a></li>
+            <li><a href="{{ site.baseurl }}/events/">Events</a></li>
         </ul>
       </li>
       <li class="category">
         <span class="label">Resources</span>
         <ul class="submenu">
-          <li><a href="/user-guides/">User Guides</a></li>
+          <li><a href="{{ site.baseurl }}/user-guides/">User Guides</a></li>
           <li><a href="https://particl.wiki" target="_blank">Wiki</a></li>
           <li><a href="https://particl.wiki/support/start" target="_blank">FAQ</a></li>
-          <li><a href="/whitepapers/">Whitepapers</a></li>
-          <li><a href="/proposals/">Proposals</a></li>
-          <li><a href="/bug-bounties/">Bug Bounties</a></li>
+          <li><a href="{{ site.baseurl }}/whitepapers/">Whitepapers</a></li>
+          <li><a href="{{ site.baseurl }}/proposals/">Proposals</a></li>
+          <li><a href="{{ site.baseurl }}/bug-bounties/">Bug Bounties</a></li>
           <li><a href="https://explorer.particl.io" target="_blank">Block Explorer</a></li>
-          <li class="footer-only"><a href="https://portal.particl.io/login" target="_blank">Account (Swap)</a></li>
+          <!-- <li class="footer-only"><a href="https://portal.particl.io/login" target="_blank">Account (Swap)</a></li> -->
         </ul>
       </li>
       <li class="category">
         <span class="label">About</span>
         <ul class="submenu">
-          <li><a href="/about-us/">About us</a></li>
-          <li><a href="/team/">Particl Team</a></li>
+          <li><a href="{{ site.baseurl }}/about-us/">About us</a></li>
+          <li><a href="{{ site.baseurl }}/team/">Particl Team</a></li>
           <!--li><a href="/careers/">Careers</a></li-->
-          <li><a href="/status-report/">Status Report</a></li>
-          <li><a href="/contact/" class="mail">Contact</a></li>
+          <li><a href="{{ site.baseurl }}/status-report/">Status Report</a></li>
+          <li><a href="{{ site.baseurl }}/contact/" class="mail">Contact</a></li>
         </ul>
       </li>
       <li class="category mobile-only header-only">
