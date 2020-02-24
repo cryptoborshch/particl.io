@@ -26,13 +26,15 @@ markdown: kramdown
 
 whitelist:
   - jekyll-redirect-from
+
 plugins_dir:
 #  - jekyll-feed
   - jekyll-redirect-from
-
-plugins:
-  - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+
+# plugins:
+#   - jekyll-redirect-from
+#   - jekyll-multiple-languages-plugin
 
 collections:
   events:
