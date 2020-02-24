@@ -1,0 +1,4 @@
+## Mobility
+
+Particl currency transactions are available on mobile using [Particl Copay]({{site.baseurl}}/downloads/ "View all Downloads"). The mobile application supports public transactions, multisig addresses and cold staking. Another mobile wallet will be developed later on to include most Particl Desktop features such as the marketplace, private transactions, messaging, voting, other decentralized applications, and etc. With the trend of online communication, gaming and shopping moving towards mobile, the ability for Particl privacy products to migrate to mobile operating systems is crucial.
+{: .small }

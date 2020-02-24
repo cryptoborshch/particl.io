@@ -12,7 +12,8 @@
       <li class="category">
         <span class="label">{% t menu.introduction.title %} {{ currentlang }}</span>
         <ul class="submenu">
-          <li><a href="{% if site.lang == 'fr' %}{% translate_link whyparticl fr %}{% else %}{% translate_link whyparticl %}{% endif %}">{% t menu.introduction.whyparticl %}</a></li>
+          <!-- Example of different permalink: <li><a href="{% if site.lang == 'fr' %}{% translate_link whyparticl fr %}{% else %}{% translate_link whyparticl %}{% endif %}">{% t menu.introduction.whyparticl %}</a></li> -->
+          <li><a href="{{ site.baseurl }}/why-particl/">{% t menu.introduction.whyparticl %}</a></li>
           <li><a href="{{ site.baseurl }}/coin-specifications/"><!-- <span class="desktop-only">Coin</span> --> {% t menu.introduction.specifications %}</a></li>
           <li><a href="https://particl.news" target="_blank">{% t menu.introduction.latestnews %}</a></li>
           <li><a href="{{ site.baseurl }}/press/">{% t menu.introduction.press %}</a></li>

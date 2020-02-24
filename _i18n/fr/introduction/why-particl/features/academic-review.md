@@ -1,0 +1,4 @@
+## Academic Review
+
+Security and privacy are two of our core values. In November 2017, a University grant was made to the New Jersey Institute of Technology to academically review and improve Particl's RingCT implementation as well as other privacy and security protocols used by the platform. The grant provides Assistant Professor Qiang Tang and his team 6 months combing over privacy enhancements Particl has added on top of Bitcoin. Professor Tang’s research interests lie in applied & theoretical cryptography, privacy and computer security. In particular: blockchain technology, post-Snowden cryptography, accountability, and information theoretic security.
+{: .small }

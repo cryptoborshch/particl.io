@@ -1,0 +1,4 @@
+## Scalable
+
+Scalability is the ability of a blockchain to be able to sustain a lot of traffic without having its performance negatively impacted by it. We believe this aspect to be very important for any platform that wishes to support a large community of users, let alone an entire global economy. Scalability as always been one of the core attribute of the Particl platform and is one the reason why it is being kept updated to the latest version of the Bitcoin Core codebase. Not only has the blockchain been natively integrated with Segwit since the first block, the Particl platform is being worked on so that it will integrate several critical scaling enhancements such as the Lightning Network, Schnorr signatures and CT Bulletproofs, only to name a few. Particl aims to be one of the most efficient and lightweight privacy projects in crypto and a lot of research and development is being made on that front.
+{: .small }

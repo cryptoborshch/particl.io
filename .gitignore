@@ -67,6 +67,9 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+# cache Mackbook
+**/.DS_Store
+
 # Sonarlint plugin
 .idea/sonarlint
 
