@@ -8,9 +8,9 @@ menu:
   new: New
   introduction: 
     title: Einstieg
-    whyparticl: Warum Particl?
+    whyparticl: Was ist Particl?
     specifications: Technische Daten
-    latestnews: Neueste Meldungen
+    latestnews: Neuigkeiten
     press: In der Presse
     roadmap: Roadmap
   marketplace:
@@ -20,7 +20,7 @@ menu:
     buyers: Einkaufen
     sellers: Verkaufen
   getparticl:
-    title: Get Particl
+    title: Particl Nutzen
     downloads: Downloads
     exchanges: PART Exchanges
     subscribe: Newsletter
