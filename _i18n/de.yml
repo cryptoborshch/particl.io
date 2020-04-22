@@ -17,8 +17,8 @@ menu:
     title: Marktplatz
     about: About
     features: '& Features'
-    buyers: Einkaufen
-    sellers: Verkaufen
+    buyers: Anleitung für Käufer
+    sellers: Anleitung für Verkäufer
   getparticl:
     title: Particl Nutzen
     downloads: Downloads
@@ -26,7 +26,7 @@ menu:
     subscribe: Newsletter
     events: Veranstaltungen
   resources:
-    title: Resources
+    title: Resourcen
     userguide: Benutzerhandbuch
     wiki: Wiki
     faq: Häufig gestellte Fragen
