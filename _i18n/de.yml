@@ -7,36 +7,36 @@ langs:
 menu:
   new: New
   introduction: 
-    title: Introduction
-    whyparticl: Why Particl
-    specifications: Coin specifications
-    latestnews: Latest News
-    press: In the Press
+    title: Einstieg
+    whyparticl: Warum Particl?
+    specifications: Technische Daten
+    latestnews: Neueste Meldungen
+    press: In der Presse
     roadmap: Roadmap
   marketplace:
-    title: Marketplace
+    title: Marktplatz
     about: About
-    features: '& features'
-    buyers: For buyers
-    sellers: For sellers
+    features: '& Features'
+    buyers: Einkaufen
+    sellers: Verkaufen
   getparticl:
     title: Get Particl
     downloads: Downloads
     exchanges: PART Exchanges
-    subscribe: Subscribe
-    events: Events
+    subscribe: Newsletter
+    events: Veranstaltungen
   resources:
     title: Resources
-    userguide: User Guides
+    userguide: Benutzerhandbuch
     wiki: Wiki
-    faq: FAQ
+    faq: Häufig gestellte Fragen
     whitepapers: Whitepapers
-    proposals: Proposals
+    proposals: Vorschläge
     bugbounties: Bug Bounties
     blockexplorer: Block Explorer
   about:
-    title: About
-    aboutus: About us
+    title: Ressourcen
+    aboutus: Über uns
     team: Particl Team
-    statusreport: Status Report
-    contact: Contact
+    statusreport: Statusberichte
+    contact: Kontakt
