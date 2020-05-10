@@ -1,42 +1,43 @@
 global:
-  test: test
+  test: тест
 langs:
   en: 🇬🇧English
   fr: 🇫🇷Français
   de: 🇩🇪Deutsch
+  ru: ruРусский
 menu:
-  new: New
+  new: Новое
   introduction: 
-    title: Introduction
-    whyparticl: Why Particl
-    specifications: Coin specifications
-    latestnews: Latest News
-    press: In the Press
-    roadmap: Roadmap
+    title: Введение
+    whyparticl: Почему Particl
+    specifications: Спецификация монеты
+    latestnews: Последние новости
+    press: СМИ о нас
+    roadmap: Дорожная карта
   marketplace:
-    title: Marketplace
-    about: About
-    features: '& features'
-    buyers: For buyers
-    sellers: For sellers
+    title: Рынок
+    about: Описание
+    features: 'и возможности'
+    buyers: Для покупателей
+    sellers: Для продавцов
   getparticl:
-    title: Get Particl
-    downloads: Downloads
-    exchanges: PART Exchanges
-    subscribe: Subscribe
-    events: Events
+    title: Получить Particl
+    downloads: Скачать
+    exchanges: Обменять PART
+    subscribe: Подписка
+    events: События
   resources:
     title: Resources
-    userguide: User Guides
-    wiki: Wiki
-    faq: FAQ
-    whitepapers: Whitepapers
-    proposals: Proposals
-    bugbounties: Bug Bounties
-    blockexplorer: Block Explorer
+    userguide: Инструкции
+    wiki: Вики
+    faq: ЧаВо
+    whitepapers: Белые книги
+    proposals: Предложения
+    bugbounties: Программа Bug Bounties
+    blockexplorer: Обозреватель блоков
   about:
-    title: About
-    aboutus: About us
-    team: Particl Team
-    statusreport: Status Report
-    contact: Contact
+    title: Описание
+    aboutus: О нас
+    team: Команда Particl
+    statusreport: Текущий статус
+    contact: Контакты
